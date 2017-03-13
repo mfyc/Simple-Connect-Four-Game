@@ -2,7 +2,7 @@
 
 You can play with another person or a semi-intelligent AI. The AI simply looks ahead a few steps (depending on how you initialize it) and calculates the moves it can make by judging the gain from the potential move.
 
-HOW TO PLAY:
+HOW TO PLAY:  
 You need to first run the connect_four.py in a shell. An example is Python's IDLE.  
 Once you've ran the file, first initialize your player/AIplayer names (can be any name) and your side (between 'X' or 'O').  
   To play as a human, an example input would be:  
