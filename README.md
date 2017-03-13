@@ -10,10 +10,10 @@ Once you've ran the file, first initialize your player/AIplayer names (can be an
   -If you want to play against another human (or yourself if you want), don't forget to initialize the 2nd player!  
     playername2 = Player("O")  
   -However, if you want to play against an AI, an example input would be:  
-    playername2 = AIPlayer("O", "LEFT", 3)  
-      --NOTE:  
+    playername2 = AIPlayer("O", "LEFT", 3)   
+      --NOTE:   
       "X" is the piece you want to use.  
-      "LEFT" is the tiebreak method. Other options include "RIGHT" or "RANDOM".  
+      "LEFT" is the tiebreak method. Other options include "RIGHT" or "RANDOM". <br />
       3 is the number of steps you want the AIplayer to look ahead to. (Best keep it 4 or under unless you are patient since it'll take longer for the AI to respond).  
 Once you have all the players defined, you can finally start playing! All you need to do now is enter into the shell:  
   connect_four(playername1, playername2)  
